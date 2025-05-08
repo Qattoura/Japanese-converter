@@ -67,16 +67,3 @@ Transliterates English words into Katakana using phonetic approximations.
 Input: `hello world`  
 Output: `ハロー・ワールド`
 
----
-
-## Installation
-
-1. **Prerequisites**:  
-   - Java JDK 17+  
-   - Dictionary files: `file.txt`, `cmu_romaji.txt`, `kafile.txt` (place in project root).  
-
-2. **Compile & Run**:  
-
-   ```bash
-   javac Main.java initial.java EnglishToIPAConverter.java
-   java Main
